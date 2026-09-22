@@ -1,0 +1,35 @@
+{
+  "name": "justlend-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sun-protocol/permit2-sdk": "^1.0.0",
+    "@tronweb3/tronwallet-abstract-adapter": "^1.1.9",
+    "@tronweb3/tronwallet-adapter-binance": "^1.1.1",
+    "@tronweb3/tronwallet-adapter-ledger": "^1.1.15",
+    "@tronweb3/tronwallet-adapter-okxwallet": "^1.1.0",
+    "@tronweb3/tronwallet-adapter-react-hooks": "^1.1.10",
+    "@tronweb3/tronwallet-adapter-tokenpocket": "^1.1.0",
+    "@tronweb3/tronwallet-adapter-tronlink": "^1.2.0",
+    "@tronweb3/tronwallet-adapter-walletconnect": "^3.0.5",
+    "@tronweb3/tronwallet-adapters": "^1.2.14",
+    "ethers": "^6.17.0",
+    "logrocket": "^12.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "oxlint": "^1.79.0",
+    "vite": "^8.2.2"
+  }
+}
